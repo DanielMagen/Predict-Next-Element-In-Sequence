@@ -19,8 +19,6 @@ Finally, to get the predicted item simply feed the sequence to the predict funct
 predictor.predict(seq)
 ```
 
-To see
-
 Some predictors were tested on all the sequences in the OEIS website. The testing was done by comparing 
 the known n'th element in the sequence to the predicted n'th element given the first n-1 elements.
 the tests can be seen in testing_on_oeis/main_testing.py and in the predictors documentation.
